@@ -7,7 +7,7 @@ Naklonujte si repozitář se stránkou, která zobrazuje hrací kostku. Doplňte
 Nápověda: Rozumným postupem je vytvořit si proměnnou side, která bude obsahovat číslo strany kostky. Tuto proměnnou můžete vždy při stisknutí klávesy navýšit o jedna a z této hodnoty zkonstruovat řetězec pro atribut src.
 */
 
-let cislo = 0
+let cislo = 1
 
 const diceGame = () => {
     if (cislo < 6) {
